@@ -39,3 +39,7 @@ exports.toChar = toAny.toChar;
 exports.toArrText = toAny.toArrText;
 exports.int = toAny.int;
 exports.float = toAny.float;
+exports.var = variable.var;
+exports.vEquation = variable.vEquation;
+exports.vGet = variable.vGet;
+exports.vDelete = variable.vDelete;
