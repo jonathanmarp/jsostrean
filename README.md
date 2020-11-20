@@ -13,7 +13,10 @@ The first way to use jsostream is to call the main function. The method is using
 
 `
 nameVar.jsostream(function(argc, argv) {
+
   // Your Script In Here
+  
   return 0;
+  
 })
 `
