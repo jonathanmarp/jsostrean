@@ -74,4 +74,10 @@ String or Char To Int
 
 String or Char To Float
 
-`varName.float("String Or Char": string || char)` Example `varName.int("1") -> 1.0:float`
+`varName.float("String Or Char": string || char)` Example `varName.float("1") -> 1.0:float`
+
+
+Array:int || float In Sort
+
+`varName.sort([]: int || float)` Example `varName.sort([3, 2, 1]) -> [1, 2, 3]:int || float`
+
