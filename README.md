@@ -155,4 +155,35 @@ varName.appendFile("nameFile": string, contentFile: any, callback: function);
 
 varName.readFile("nameFile": string, callback: function);
 
+
 ## Second Fstream
+
+How to using fstream. why you using this. this using class. and you can save to our variable.
+
+`jso.var("File", jso.fstream("nameFile": string))`
+
+this our method
+fstream -> writeFile(contentFile, callback);
+        -> openFile(param, callback);
+        -> appendFile(contentFile, callback);
+        
+example:
+
+## writeFile | using variable vanilla
+`let hi = jso.fstream("data.txt"); hi.writeFile("Hello, World", function() { jso.print("Success"); })`
+
+## openFile | using variable vanilla
+`let hi = jso.fstream("data.txt"); hi.openFile("w", function() { /* This is script */ })`
+
+## appendFile | using variable vanilla
+`let hi = jso.fstream("data.txt"); hi.openFile("Hello, Humman", function() { jso.print("Success"); })`
+
+
+## writeFile | using oneline
+`jso.fstream("data.txt").writeFile("Hello, World", function(){ jso.print("Success"); })`
+
+## openFile | using variable vanilla
+`jso.fstream("data.txt").openFile("w", function(){ /* This is script */ })`
+
+## appendFile | using variable vanilla
+`jso.fstream("data.txt").appendFile("Hello, Humman", function(){ jso.print("Success"); })`
