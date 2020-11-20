@@ -18,6 +18,9 @@ nameVar.jsostream(function(argc: int, argv: array string) {
 })
 `
 
+## How To Print
+`varName.print(Any)`
+
 And how to make a function. Below this
 `nameVar.function("Name Function": string, function(param: any){ /* Your Script Here */ });`
 
@@ -81,3 +84,34 @@ Array:int || float In Sort
 
 `varName.sort([]: int || float)` Example `varName.sort([3, 2, 1]) -> [1, 2, 3]:int || float`
 
+## Variable
+
+How to Make new variable
+
+`varName.var("Name Variable": string, fill: Any)`
+
+And Get Data
+
+`let output = varName.vGet("Name Variable": string)`
+
+Delete Data
+
+`varName.vDelete("Name Variable": string)`
+
+how to copy data to multiple data
+
+`varName.vEquation("Name Variable In Copy", "Variable1", "Variable2", Any)`
+
+## _Example_
+
+`varName.var("data1", 1);`
+
+`varName.var("data2", 2);`
+
+`varName.var("data3", 3);`
+
+`varName.var("data4", 4);`
+
+`varName.vEquation("data1", "data2", "data3", "data4")`
+
+`jso.print(data1, data2, data3, data4) -> output: 1, 1, 1, 1`
