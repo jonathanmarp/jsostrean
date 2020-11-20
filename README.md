@@ -115,3 +115,44 @@ how to copy data to multiple data
 `varName.vEquation("data1", "data2", "data3", "data4")`
 
 `jso.print(data1, data2, data3, data4) -> output: 1, 1, 1, 1`
+
+# enum
+
+How to using enum
+
+`let variableName = varName.enum(array: string)`
+
+how to getEnum
+
+`variableName.getEnum("nameEnum": string)`
+
+how to Change First Enum In Number.
+
+**Important**
+
+NameEnum -> hi = 0; Chnage hi = 1, -> ho = 2, -> hy = 3
+
+# File / fstream
+
+You Can Using File Or Fstream
+
+## The First File
+
+
+**writeFile**
+
+varName.writeFile("nameFile": string, contentFile: any, callback: function);
+
+**openFile**
+
+varName.openFile("nameFile": string, param: any, callback: function);
+
+**appendFile**
+
+varName.appendFile("nameFile": string, contentFile: any, callback: function);
+
+**readFile**
+
+varName.readFile("nameFile": string, callback: function);
+
+## Second Fstream
