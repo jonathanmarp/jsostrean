@@ -43,3 +43,5 @@ exports.var = variable.var;
 exports.vEquation = variable.vEquation;
 exports.vGet = variable.vGet;
 exports.vDelete = variable.vDelete;
+exports.enum = enums.enum;
+exports.runSafe = runSafe.runSafe;
