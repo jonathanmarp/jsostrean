@@ -1,0 +1,16 @@
+{
+  "name": "jsostrean",
+  "version": "v0.0-beta",
+  "description": "Fast Library For Javascript",
+  "main": "jsostream.js",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "browserify main.js -o bundle.js"
+  },
+  "keywords": [],
+  "author": "jonathanmarp",
+  "license": "ISC"
+}
