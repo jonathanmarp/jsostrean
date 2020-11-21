@@ -12,5 +12,8 @@
   },
   "keywords": [],
   "author": "jonathanmarp",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^17.0.0"
+  }
 }
