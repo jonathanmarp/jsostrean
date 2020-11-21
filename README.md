@@ -8,6 +8,29 @@ Library Fast For Javascript In Node
 ## Warning
 You can also use JavaScript as usual
 
+## If You Wont Build
+
+Run This Script
+
+_linux_
+
+`bash setup.sh`
+
+
+_windows_
+
+`setup.bat`
+
+
+**To Build**
+
+`npm run-script build`
+The File in compile name: main.js
+The Output: bundle.js
+
+If You Wont Change. Change This Script
+`"build": "browserify main.js -o bundle.js"` in package.json
+
 The First Script For First Using
 `let nameVar = require("./jsostream.js");`
 
