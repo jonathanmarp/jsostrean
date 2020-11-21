@@ -1,6 +1,6 @@
 {
   "name": "jsostrean",
-  "version": "v0.0-beta",
+  "version": "1.0.0",
   "description": "Fast Library For Javascript",
   "main": "jsostream.js",
   "directories": {
