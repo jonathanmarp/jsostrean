@@ -1,0 +1,3 @@
+# For Linux
+
+npm install
